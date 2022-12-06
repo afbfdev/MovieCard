@@ -1,0 +1,108 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+}
+
+.button button {
+  background-color: #FFC300;
+  padding: 5px 18px 5px 3px;
+  margin: 10px;
+  border-radius: 5px;
+  background: url("images/login.png") 98.5% / 25% no-repeat #FFC300;
+}
+
+ul {
+  display: flex;
+  gap: 5px;
+}
+
+
+ul .animsite {
+  color :aliceblue;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+ul .home{
+  color: #FFC300;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.search_bar {
+  margin: 5px;
+  width: 50%;
+  height: 40px;
+  max-width: 550px;
+  background-color: #eee;
+  border-radius: 8px;
+  display: flex;
+}
+
+.search_bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 5px;
+  font-size: 13.5Px;
+}
+
+.search_bar button img {
+  width : 20px;
+
+}
+
+search_bar button {
+  border: 0;
+  border-radius: 15%;
+  width: 20px;
+  height: 20px;
+  background: #898888;
+}
+
+.movies {
+background-color: gainsboro;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin-top: 15px;
+}
+
+.list {
+  margin: auto;
+ width: 24%;
+ height: 30%; 
+ background-color: #eee;
+ padding: 6px;
+}
+
+
+.but {
+  background-color: #FFC300;
+  padding: 5px 20px 5px 3px;
+  border-radius: 5px;
+  border: none;
+  background: url("images/eye.png") 98.5% / 20% no-repeat #FFC300;
+
+}
+
+
+
+.color {
+  background-color: #fff;
+  padding: 5px;
+}
+
+.look {
+  display: flex;
+}
+
+.look .photo_star {
+  width: 50px;
+  height: 50px;
+  margin-top: 14px;
+}
